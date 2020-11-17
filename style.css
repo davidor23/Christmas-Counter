@@ -16,15 +16,7 @@ body {
     font-family: "Mountains of Christmas", sans-serif;
     margin: 0;
 }
-body > background-image {
-    opacity: 0;
-}
-@media only screen and (max-width: 1000px) {
-    h1 {
-        flex-direction: column;
-    }
 
-}
 @keyframes blinker {
     0%{
         color: darkgreen;
@@ -50,7 +42,7 @@ body > background-image {
 
 h1 {
     animation: blinker 6s linear ;
-    font-size: 4rem;
+    font-size: 10vh;
     font-weight: normal;
     margin-top: 4rem;
     display: flex;
@@ -66,15 +58,18 @@ span{
     color: black;
     font-family: "Lato";
 
-
 }
+
 .countdown-container {
     display: flex;
+    padding: 10px;
+    margin: 10px;
+
 
 }
 
 .big-text {
-    font-size: 6rem;
+    font-size: 8vw;
     line-height: 1;
     margin: 0 2rem;
     font-weight: 700;
@@ -85,7 +80,8 @@ span{
 }
 
 span {
-    font-size: 1.5rem;
+    font-size:100%;
+    max-font-size: 100px;
 }
 
 .snowflake {
